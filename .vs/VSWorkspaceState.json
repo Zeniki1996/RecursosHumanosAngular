@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RRHH_angualr",
+    "\\RRHH_angualr\\src",
+    "\\RRHH_angualr\\src\\app",
+    "\\RRHH_angualr\\src\\app\\login",
+    "\\RRHH_angualr\\src\\app\\sign-up"
   ],
-  "SelectedNode": "\\D:\\Users\\Nestor Lozada\\Desktop\\UDLA\\8vo_sem\\RecursosHumanos",
+  "SelectedNode": "\\RRHH_angualr\\src\\app\\app.component.html",
   "PreviewInSolutionExplorer": false
 }

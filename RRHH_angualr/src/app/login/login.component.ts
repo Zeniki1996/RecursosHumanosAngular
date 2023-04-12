@@ -1,18 +1,26 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 
 @Component({
   selector: "app-login",
-  templateUrl: ["./login.component.html"],
+  templateUrl: "./login.component.html",
   styleUrls: ["./login.component.css"]
 })
-export class LoginComponent {
-  email: string;
-  password: string;
+export class LoginComponent implements OnInit {
+  singupUsers: any[] = [];
+  singupObj: any = {
+    userName: '',
+    email: '',
+    password: '',
+  };
+  loginObj: any = {
+    userName: '',
+    password: '',
+
+  };
 
   constructor() { }
 
-  login() {
-    console.log(this.email);
-    console.log(this.password);
+  ngOnInit() {
+
   }
 }
